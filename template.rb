@@ -37,6 +37,12 @@ application  do
     # Set timezone
     config.time_zone = 'Tokyo'
     config.active_record.default_timezone = :local
+    # generatorの設定
+    config.generators do |g|
+      g.orm :active_record
+      g.assets false
+      g.helper false
+    end
     # 日本語化
     I18n.available_locales = [:en, :ja]
     I18n.enforce_available_locales = true
