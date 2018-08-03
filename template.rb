@@ -79,6 +79,8 @@ generate 'simple_form:install --bootstrap'
 # Kaminari config
 generate 'kaminari:config'
 
+# for seed-fu
+run 'mkdir db/fixtures'
 
 # git
 git
