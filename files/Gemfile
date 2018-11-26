@@ -19,6 +19,7 @@ gem 'simple_form'
 gem 'html5_validators'
 gem 'kaminari'
 gem 'seed-fu', '~> 2.3'
+gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'byebug', platform: :mri
